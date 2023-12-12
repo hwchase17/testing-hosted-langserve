@@ -3,9 +3,9 @@ from langserve import add_routes
 
 app = FastAPI()
 
-from pirate_speak.chain import chain as pirate_speak_chain
+from research_assistant import chain as research_assistant_chain
 
-add_routes(app, pirate_speak_chain, path="/pirate-speak")
+add_routes(app, research_assistant_chain, path="/research-assistant")
 
 if __name__ == "__main__":
     import uvicorn

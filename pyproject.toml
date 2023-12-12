@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.11"
 uvicorn = "^0.23.2"
 langserve = {extras = ["server"], version = ">=0.0.22"}
-pirate-speak = {path = "packages/pirate-speak", develop = true}
+research-assistant = {path = "packages/research-assistant", develop = true}
 
 
 [tool.poetry.group.dev.dependencies]
